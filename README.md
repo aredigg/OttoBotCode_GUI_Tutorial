@@ -25,9 +25,19 @@ then build it
 > sudo make install
 ```
 
-This makes a static release version of the library and installs the source files into `/usr/local/include` and makes it as easy as possible to follow the videos. It should not require any extra software installed except Xcode. And the compiled binaries will link it statically so it should work on other Macs as is.
+This makes a static release version of the library and installs the source files into `/usr/local/include` and makes it as easy as possible to follow the videos. It should not require any extra software installed except Xcode. And the compiled binaries will link it statically so it should work on other Macs as is. While the video builds both a debug and 32 bit version, I chose not to do so here. 32 bit version is not supported anymore on macOS, but if you want a debug version change `--disable-debug_flag` to `--enable-debug` on the above configure line.
+
+## Other hints
+
+It may be useful to make a symbolic link for the wx include files, as they are installed in a wx-version subfolder, so for some text editors and LSP to find the correct files, you can add it like this
+```
+sudo ln -s /usr/local/include/wx-3.2/wx /usr/local/include/wx
+```
+
+I have used `nano` as the text editor in the notes, but any code editor is of course fine.
 
 ## Episodes
 
 * [Episode 1](Episode%201)
+* [Episode 2](Episode%202)
 
