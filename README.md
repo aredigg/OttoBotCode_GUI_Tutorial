@@ -6,6 +6,17 @@ I wanted to learn using a GUI library when making simple programs in C++ on my M
 
 ## How to install wxWidgets on macOS
 
+Download it from https://wxwidgets.org/downloads/ choose "Source Code" and "Source for Linux, macOS, etc" and unpack it somewhere usful. If you use Safari it will most likely be downloaded to the "Downloads" folder for your current logged on user. So then open terminal and go there.
+
+```
+> cd
+> cd Downloads
+```
+If you did not unpack it already you can use the following command (you may have to change it to the filename that was downloaded)
+```
+> tar xf wxWidgets-3.2.5.tar.bz2
+```
+then build it
 ```
 > cd wxWidgets-3.2.5
 > mkdir build-macos
