@@ -18,5 +18,5 @@ This makes a static release version of the library and installs the source files
 
 ## Episodes
 
-* [Episode 1](Episode 1)
+* [Episode 1](Episode%201)
 
