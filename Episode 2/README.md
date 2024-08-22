@@ -1,4 +1,4 @@
-## Episode 2
+## Episode 2 – Creating a Window
 
 https://youtu.be/cQalRGqRRp4
 

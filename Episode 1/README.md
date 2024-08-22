@@ -1,4 +1,4 @@
-## Episode 1
+## Episode 1 – Installing wxWidgets
 
 https://youtu.be/ONYW3hBbk-8
 

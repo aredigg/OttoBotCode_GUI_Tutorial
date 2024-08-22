@@ -38,9 +38,11 @@ I have used `nano` as the text editor in the notes, but any code editor is of co
 
 ## Episodes
 
-* [Episode 1](Episode%201)
-* [Episode 2](Episode%202)
-* [Episode 3](Episode%203)
-* [Episode 4](Episode%204)
-* [Episode 5](Episode%205)
-* [Episode 6](Episode%206)
+* [Episode 1](Episode%201) – Installing wxWidgets
+* [Episode 2](Episode%202) – Creating a Window
+* [Episode 3](Episode%203) – Adding Controls
+* [Episode 4](Episode%204) – Styles
+* [Episode 5](Episode%205) – Events (Static Handling)
+* [Episode 6](Episode%206) – Dynamic Event Handling
+* [Episode 7](Episode%207) – Event Propagation
+* [Episode 8](Episode%208) – Mouse Events

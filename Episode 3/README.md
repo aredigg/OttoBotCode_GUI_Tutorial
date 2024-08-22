@@ -1,4 +1,4 @@
-## Episode 3
+## Episode 3 – Adding Controls
 
 https://youtu.be/_2FMt_0wVMM
 
