@@ -50,4 +50,5 @@ I have used `nano` as the text editor in the notes, but any code editor is of co
 * [Episode 10](Episode%2010) – To-Do List Application
 * [Episode 11](Episode%2011) – Adaptive Layouts
 * [Episode 12](Episode%2012) – wxBoxSizer
+* [Episode 13](Episode%2013) – wxGridSizer
 
