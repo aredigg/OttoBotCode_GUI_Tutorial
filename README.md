@@ -47,4 +47,5 @@ I have used `nano` as the text editor in the notes, but any code editor is of co
 * [Episode 7](Episode%207) – Event Propagation
 * [Episode 8](Episode%208) – Mouse Events
 * [Episode 9](Episode%209) – Keyboard Events
+* [Episode 10](Episode%2010) – To-Do List Application
 
