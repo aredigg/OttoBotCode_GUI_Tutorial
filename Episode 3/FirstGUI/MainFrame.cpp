@@ -1,5 +1,4 @@
 #include "MainFrame.h"
-#include "wx-3.2/wx/arrstr.h"
 #include <wx/wx.h>
 #include <wx/spinctrl.h>
 

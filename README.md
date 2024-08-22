@@ -40,4 +40,6 @@ I have used `nano` as the text editor in the notes, but any code editor is of co
 
 * [Episode 1](Episode%201)
 * [Episode 2](Episode%202)
+* [Episode 3](Episode%203)
+* [Episode 4](Episode%204)
 
