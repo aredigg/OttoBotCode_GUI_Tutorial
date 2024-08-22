@@ -46,3 +46,4 @@ I have used `nano` as the text editor in the notes, but any code editor is of co
 * [Episode 6](Episode%206) – Dynamic Event Handling
 * [Episode 7](Episode%207) – Event Propagation
 * [Episode 8](Episode%208) – Mouse Events
+
