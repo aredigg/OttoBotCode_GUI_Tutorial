@@ -49,4 +49,5 @@ I have used `nano` as the text editor in the notes, but any code editor is of co
 * [Episode 9](Episode%209) – Keyboard Events
 * [Episode 10](Episode%2010) – To-Do List Application
 * [Episode 11](Episode%2011) – Adaptive Layouts
+* [Episode 12](Episode%2012) – wxBoxSizer
 

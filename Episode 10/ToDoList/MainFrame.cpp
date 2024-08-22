@@ -3,7 +3,6 @@
 #include <vector>
 #include <string>
 #include "Task.h"
-#include "wx-3.2/wx/event.h"
 
 MainFrame::MainFrame(const wxString &title) : wxFrame(nullptr, wxID_ANY, title) {
     CreateControls();
