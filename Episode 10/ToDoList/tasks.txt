@@ -1,4 +1,0 @@
-3
-Ri_en_hest 0
-Hopp_på_en_geit 1
-Melk_en_ku 0
