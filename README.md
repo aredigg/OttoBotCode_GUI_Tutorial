@@ -9,20 +9,20 @@ I wanted to learn using a GUI library when making simple programs in C++ on my M
 Download it from https://wxwidgets.org/downloads/ choose "Source Code" and "Source for Linux, macOS, etc" and unpack it somewhere usful. If you use Safari it will most likely be downloaded to the "Downloads" folder for your current logged on user. So then open terminal and go there.
 
 ```
-> cd
-> cd Downloads
+cd
+cd Downloads
 ```
 If you did not unpack it already you can use the following command (you may have to change it to the filename that was downloaded)
 ```
-> tar xf wxWidgets-3.2.5.tar.bz2
+tar xf wxWidgets-3.2.5.tar.bz2
 ```
 then build it
 ```
-> cd wxWidgets-3.2.5
-> mkdir build-macos
-> cd build-macos
-> ../configure --disable-shared --disable-pnm --disable-pcx --disable-gif --disable-iff --disable-debug_flag --disable-sys-libs --enable-universal_binary=arm64,x86_64
-> sudo make install
+cd wxWidgets-3.2.5
+mkdir build-macos
+cd build-macos
+../configure --disable-shared --disable-pnm --disable-pcx --disable-gif --disable-iff --disable-debug_flag --disable-sys-libs --enable-universal_binary=arm64,x86_64
+sudo make install
 ```
 
 This makes a static release version of the library and installs the source files into `/usr/local/include` and makes it as easy as possible to follow the videos. It should not require any extra software installed except Xcode. And the compiled binaries will link it statically so it should work on other Macs as is. While the video builds both a debug and 32 bit version, I chose not to do so here. 32 bit version is not supported anymore on macOS, but if you want a debug version change `--disable-debug_flag` to `--enable-debug` on the above configure line.
