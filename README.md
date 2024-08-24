@@ -22,6 +22,7 @@ cd wxWidgets-3.2.5
 mkdir build-macos
 cd build-macos
 ../configure --disable-shared --disable-pnm --disable-pcx --disable-gif --disable-iff --disable-debug_flag --disable-sys-libs --enable-universal_binary=arm64,x86_64
+make -j`sysctl -n hw.ncpu`
 sudo make install
 ```
 
@@ -29,12 +30,18 @@ This makes a static release version of the library and installs the source files
 
 ## Other hints
 
-It may be useful to make a symbolic link for the wx include files, as they are installed in a wx-version subfolder, so for some text editors and LSP to find the correct files, you can add it like this
+When you want to compile your wxWidgets library sources `wx-config` command will give you the correct compiler and linker settings you should use. It will also let you choose between different versions that you have compiled. The simplest command to compile is by running
 ```
-sudo ln -s /usr/local/include/wx-3.2/wx /usr/local/include/wx
+c++ *.cpp -o AppName `wx-config --cxxflags --libs`
 ```
 
-I have used `nano` as the text editor in the notes, but any code editor is of course fine.
+I have used `nano` as a placeholder text editor in the notes, but any code editor is of course fine. If your text editor uses `clangd` for code completion, LSP etc., you can create a `compile_flags.txt` in your folder of your source-file, or its parent. Run this to command
+```
+wx-config --cxxflags | tr ' ' '\n' > compile_flags.txt
+```
+Other relevant options may also be included into that file, i.e. `-std=c++11`.
+
+For bigger projects you should use Make or similar.
 
 ## Episodes
 
@@ -52,4 +59,3 @@ I have used `nano` as the text editor in the notes, but any code editor is of co
 * [Episode 12](Episode%2012) – wxBoxSizer
 * [Episode 13](Episode%2013) – wxGridSizer
 * [Episode 14](Episode%2014) – Practical Sizer Example (To-Do List)
-
