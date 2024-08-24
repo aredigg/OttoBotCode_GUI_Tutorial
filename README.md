@@ -1,5 +1,4 @@
-# OttoBotCode Tutorial:
-# C++ GUI Programming for Beginners
+# OttoBotCode Tutorial: C++&nbsp;GUI&nbsp;Programming&nbsp;for&nbsp;Beginners
 
 ## The tutorial
 
