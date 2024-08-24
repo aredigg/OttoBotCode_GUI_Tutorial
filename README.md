@@ -2,7 +2,7 @@
 
 ## The tutorial
 
-I wanted to learn using a GUI library when making simple programs in C++ on my Mac. I found these videos on YouTube which was simple, descriptive and easy to follow. But they were for Windows and Visual Code, so I had to adapt a bit. Here are the notes I have made, maybe it will be helpful for others.
+I wanted to learn using a GUI library when making simple programs in C++ on my Mac. I found these videos on YouTube which are simple, descriptive and easy to follow. But they were for Windows and Visual Code, so I had to adapt a bit. Here are the notes I have made, and maybe it will be helpful for others.
 
 ## How to install wxWidgets on macOS
 
