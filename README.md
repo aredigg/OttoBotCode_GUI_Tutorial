@@ -1,4 +1,5 @@
-# OttoBotCode Tutorial: C++ GUI Programming for Beginners
+# OttoBotCode Tutorial:
+# C++ GUI Programming for Beginners
 
 ## The tutorial
 
@@ -30,12 +31,12 @@ This makes a static release version of the library and installs the source files
 
 ## Other hints
 
-When you want to compile your wxWidgets library sources `wx-config` command will give you the correct compiler and linker settings you should use. It will also let you choose between different versions that you have compiled. The simplest command to compile is by running
+When you want to compile your wxWidgets library sources, the `wx-config` command will give you the correct compiler and linker settings you should use. It will also let you choose between different versions that you have compiled. Run `wx-config --help` to see the options. The simplest command to compile is by running
 ```
 c++ *.cpp -o AppName `wx-config --cxxflags --libs`
 ```
 
-I have used `nano` as a placeholder text editor in the notes, but any code editor is of course fine. If your text editor uses `clangd` for code completion, LSP etc., you can create a `compile_flags.txt` in your folder of your source-file, or its parent. Run this to command
+I have used `nano` as a placeholder text editor in the notes, but any code editor is of course fine. If your text editor uses `clangd` for code completion, LSP etc., you can create a `compile_flags.txt` in your folder of your source-file, or its parent. Run this command
 ```
 wx-config --cxxflags | tr ' ' '\n' > compile_flags.txt
 ```
